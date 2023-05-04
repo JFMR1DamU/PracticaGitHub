@@ -34,6 +34,7 @@
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.cbUrgente = new System.Windows.Forms.CheckBox();
             this.btnCalcular = new System.Windows.Forms.Button();
+            this.cbOrdinario = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label2
@@ -89,11 +90,22 @@
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
+            // cbOrdinario
+            // 
+            this.cbOrdinario.AutoSize = true;
+            this.cbOrdinario.Location = new System.Drawing.Point(136, 176);
+            this.cbOrdinario.Name = "cbOrdinario";
+            this.cbOrdinario.Size = new System.Drawing.Size(84, 20);
+            this.cbOrdinario.TabIndex = 12;
+            this.cbOrdinario.Text = "Ordinario";
+            this.cbOrdinario.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(429, 255);
+            this.Controls.Add(this.cbOrdinario);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPrecio);
@@ -115,6 +127,7 @@
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.CheckBox cbUrgente;
         private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.CheckBox cbOrdinario;
     }
 }
 
